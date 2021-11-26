@@ -1,0 +1,56 @@
+.form-sgi {
+  width: 54vw;
+  padding: 2vw 4vw;
+  margin: 0 auto;
+  border: 1px solid #0082e6;
+  border-radius: 4px;
+  margin-bottom: 8vh;
+}
+
+.form-sgi-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.form-grupo label {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+}
+
+.form-grupo input {
+  width: 100%;
+  padding: 4px 12px;
+}
+
+.actionButtons {
+  padding-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-sgi button {
+  display: block;
+  font: inherit;
+  line-height: 36px;
+  min-width: 150px;
+  background-color: #0082e6;
+  color: white;
+  border: none;
+  width: auto;
+  overflow: visible;
+  border-radius: 4px;
+  margin-left: 16px;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+
+.form-sgi button.btn-cancel {
+  font-size: 0.9rem;
+  background-color: rgba(255, 0, 0, 0.7);
+}
+
+.form-sgi button:hover {
+  transform: scale(1.1);
+}

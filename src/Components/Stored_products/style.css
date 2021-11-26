@@ -1,0 +1,46 @@
+.stored-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1em;
+}
+
+.container-items {
+  border: 1px solid #000000;
+  background: #f8feff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 250px;
+  margin: 1em;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  color: #016abb;
+  margin: 1.5em 0;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.stored-img {
+  width: 8em;
+  height: 8em;
+  margin: 1em;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.item-text {
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.4em;
+  flex-direction: column;
+  color: #016abb;
+}
